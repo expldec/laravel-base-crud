@@ -6,34 +6,10 @@
       <nav>
         <ul class="header__menu">
           <li>
-            <a href="#">Characters</a>
+            <a href="{{ route('comics.index') }}">home</a>
           </li>
           <li>
-            <a href="#">Comics</a>
-          </li>
-          <li>
-            <a href="#">Movies</a>
-          </li>
-          <li>
-            <a href="#">TV</a>
-          </li>
-          <li>
-            <a href="#">Games</a>
-          </li>
-          <li>
-            <a href="#">Collectibles</a>
-          </li>
-          <li>
-            <a href="#">Video</a>
-          </li>
-          <li>
-            <a href="#">News</a>
-          </li>
-          <li>
-            <a href="#">Fans</a>
-          </li>
-          <li>
-            <a href="#">Shop</a>
+            <a href="{{ route('comics.create') }}">create</a>
           </li>
         </ul>
       </nav>
